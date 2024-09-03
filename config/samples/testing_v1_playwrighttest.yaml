@@ -1,0 +1,9 @@
+apiVersion: testing.my.domain/v1
+kind: PlaywrightTest
+metadata:
+  labels:
+    app.kubernetes.io/name: playwright-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: playwrighttest-sample
+spec:
+  # TODO(user): Add fields here
